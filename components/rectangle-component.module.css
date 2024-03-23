@@ -1,0 +1,33 @@
+.componentChild {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-limegreen);
+}
+.getStarted {
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-family: var(--font-copperplate-gothic-light);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xl) var(--padding-mini) var(--padding-6xl);
+  background-color: transparent;
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  white-space: nowrap;
+  z-index: 1;
+}

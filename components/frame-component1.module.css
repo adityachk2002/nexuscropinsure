@@ -1,0 +1,180 @@
+.frameChild {
+  width: 644px;
+  height: 880px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  max-width: 100%;
+}
+.password {
+  position: relative;
+  display: inline-block;
+  min-width: 93px;
+  z-index: 1;
+}
+.passwordWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl);
+}
+.frameItem {
+  border: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+  z-index: 1;
+}
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) var(--padding-mid) 0;
+  box-sizing: border-box;
+}
+.userEmailId {
+  position: relative;
+  display: inline-block;
+  min-width: 123px;
+  z-index: 1;
+}
+.userEmailIdWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lg);
+}
+.frameInner {
+  border: 1px solid var(--color-black);
+  outline: 0;
+  background-color: var(--color-lavender);
+  align-self: stretch;
+  height: 52px;
+  position: relative;
+  border-radius: var(--br-41xl);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  min-width: 250px;
+  z-index: 1;
+}
+.frameContainer,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.frameParent {
+  align-items: flex-end;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.connectWalletLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-darkorange);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+.connectWallet {
+  margin: 0;
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  font-size: inherit;
+  font-weight: 200;
+  font-family: inherit;
+  display: inline-block;
+  width: 234px;
+  height: 51px;
+  z-index: 2;
+}
+.connectWalletLabelParent {
+  height: 69px;
+  width: 263px;
+  position: relative;
+  white-space: nowrap;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 var(--padding-10xs);
+  font-size: var(--font-size-11xl);
+}
+.rectangleParent {
+  width: 644px;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-81xl) var(--padding-25xl) var(--padding-76xl);
+  box-sizing: border-box;
+  gap: var(--gap-140xl);
+  min-width: 644px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1300px) {
+  .rectangleParent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .rectangleParent {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-43xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .rectangleParent {
+    gap: 79px 159px;
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .password,
+  .userEmailId {
+    font-size: var(--font-size-base);
+  }
+  .rectangleParent {
+    gap: 40px 159px;
+    padding-top: var(--padding-23xl);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

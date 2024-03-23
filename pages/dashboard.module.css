@@ -1,0 +1,363 @@
+.usernamesDashboard {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild {
+  width: 430px;
+  height: 587px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-paleturquoise);
+  display: none;
+  max-width: 100%;
+}
+.activePlan {
+  position: relative;
+  z-index: 2;
+}
+.activePlanWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.activationDate {
+  position: relative;
+  z-index: 2;
+}
+.activationDateWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.expiryDate {
+  position: relative;
+  z-index: 2;
+}
+.expiryDateWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.creditScore {
+  position: relative;
+  z-index: 2;
+}
+.creditScoreWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs);
+}
+.walletBalance {
+  position: relative;
+  z-index: 2;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 60px;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-paleturquoise);
+  flex-direction: column;
+  padding: var(--padding-23xl) var(--padding-5xl) var(--padding-59xl);
+  box-sizing: border-box;
+  gap: 69px;
+  z-index: 1;
+}
+.frameWrapper,
+.rectangleParent,
+.usernamesDashboardParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameWrapper {
+  width: 538px;
+  flex-direction: row;
+  padding: 0 54px;
+  box-sizing: border-box;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-amethysta);
+}
+.usernamesDashboardParent {
+  width: 633px;
+  flex-direction: column;
+  gap: 27px;
+  min-width: 633px;
+}
+.usernamesData {
+  flex: 1;
+  position: relative;
+}
+.usernamesDataWrapper {
+  width: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ne3Icon {
+  height: 500px;
+  width: 500px;
+  position: absolute;
+  margin: 0 !important;
+  top: 13px;
+  left: -445px;
+  object-fit: cover;
+}
+.frameItem {
+  width: 430px;
+  height: 587px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-paleturquoise);
+  display: none;
+  max-width: 100%;
+}
+.licenseNo,
+.location,
+.quantity,
+.typeOfCrop {
+  position: relative;
+  z-index: 2;
+}
+.nA,
+.typeOfCropParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nA {
+  gap: 31.5px;
+}
+.typeOfCropParent {
+  gap: var(--gap-19xl);
+}
+.nA3 {
+  height: 53px;
+  flex: 1;
+  min-width: 120px;
+}
+.nAIcon {
+  width: 40px;
+  height: 36px;
+  position: relative;
+  z-index: 2;
+}
+.nA4 {
+  height: 44px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.nA1,
+.nA2 {
+  flex-direction: row;
+}
+.nA2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+}
+.nA1 {
+  width: 338px;
+  padding: 0 50px;
+  box-sizing: border-box;
+}
+.nA1,
+.ne3Parent,
+.rectangleGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleGroup {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-paleturquoise);
+  flex-direction: column;
+  padding: var(--padding-23xl) var(--padding-20xl) 102px;
+  box-sizing: border-box;
+  gap: 129px;
+  z-index: 1;
+}
+.ne3Parent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+  color: var(--color-black);
+  font-family: var(--font-amethysta);
+}
+.frameContainer,
+.frameParent {
+  display: flex;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.frameContainer {
+  width: 430px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 430px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.frameParent {
+  width: 1330px;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: #4ec861;
+  font-family: var(--font-copperplate-gothic-bold);
+}
+.nA6 {
+  height: 94px;
+  width: 258px;
+}
+.dashboard,
+.nA5 {
+  display: flex;
+  align-items: flex-start;
+}
+.nA5 {
+  width: 474px;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-19xl) 45px 133px;
+  box-sizing: border-box;
+  gap: 92px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .frameContainer,
+  .usernamesDashboardParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .usernamesDashboard {
+    font-size: var(--font-size-19xl);
+  }
+  .activationDate,
+  .activePlan,
+  .creditScore,
+  .expiryDate,
+  .walletBalance {
+    font-size: var(--font-size-7xl);
+  }
+  .usernamesDashboardParent {
+    min-width: 100%;
+  }
+  .licenseNo,
+  .location,
+  .quantity,
+  .typeOfCrop,
+  .usernamesData {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    padding-top: var(--padding-8xl);
+    padding-bottom: 51px;
+    box-sizing: border-box;
+  }
+  .frameWrapper {
+    padding-left: var(--padding-8xl);
+    padding-right: var(--padding-8xl);
+    box-sizing: border-box;
+  }
+  .rectangleGroup {
+    padding-top: var(--padding-8xl);
+    padding-bottom: 66px;
+    box-sizing: border-box;
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .dashboard {
+    gap: 46px 92px;
+    padding-left: var(--padding-3xl);
+    padding-right: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .usernamesDashboard {
+    font-size: var(--font-size-10xl);
+  }
+  .activationDate,
+  .activePlan,
+  .creditScore,
+  .expiryDate,
+  .walletBalance {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    gap: 34px 69px;
+  }
+  .licenseNo,
+  .location,
+  .quantity,
+  .typeOfCrop,
+  .usernamesData {
+    font-size: var(--font-size-lgi);
+  }
+  .nA2 {
+    flex-wrap: wrap;
+  }
+  .nA1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .rectangleGroup {
+    gap: 64px 129px;
+  }
+  .dashboard {
+    gap: 23px 92px;
+  }
+}

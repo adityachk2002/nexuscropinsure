@@ -1,0 +1,286 @@
+.nexus {
+  height: 61px;
+  position: relative;
+  display: inline-block;
+  min-width: 124.1px;
+  z-index: 3;
+}
+.nexusWrapper {
+  width: 364.1px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.defiInsuranceCorp {
+  margin: 0;
+  height: 73px;
+  width: 489.8px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.defiInsuranceCorpWrapper {
+  width: 729.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+}
+.blockchainIntegratedInsuranc {
+  font-weight: 600;
+}
+.blockchainIntegratedInsurancContainer {
+  width: 800px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 3;
+}
+.blockchainIntegratedInsurancWrapper {
+  width: 1040px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 551px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.frameChild {
+  position: absolute;
+  top: -379.19px;
+  left: 362.37px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #d7ffe0, #214910);
+  filter: blur(100px);
+  width: 1369px;
+  height: 507px;
+  transform: rotate(12.69deg);
+  transform-origin: 0 0;
+}
+.ne1Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 213px;
+  height: 189px;
+  object-fit: cover;
+}
+.frameItem {
+  position: absolute;
+  top: 36px;
+  left: 1124px;
+  background-color: var(--color-gainsboro);
+  width: 161.9px;
+  height: 69.5px;
+  mix-blend-mode: darken;
+  z-index: 3;
+}
+.dPathsLines1Copy11,
+.ne2RemovebgPreview1Icon {
+  position: absolute;
+  top: 151px;
+  left: -674px;
+  width: 2833px;
+  height: 1117px;
+  object-fit: cover;
+  z-index: 1;
+}
+.ne2RemovebgPreview1Icon {
+  top: 314px;
+  left: 1056px;
+  width: 408px;
+  height: 411px;
+  z-index: 2;
+}
+.ellipseParent {
+  width: 100%;
+  height: 1268px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.nexusIsThe {
+  width: 1081px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+}
+.nexusIsTheBestAgriculturalWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-59xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-amethysta);
+}
+.nexusIsThe1 {
+  width: 1081px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.nexusIsTheFirstCropInsuWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) var(--padding-59xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-amethysta);
+}
+.youCanChoose {
+  height: 120px;
+  width: 1081px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.youCanChooseFromAnyOfTheWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 119px var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-amethysta);
+}
+.youCanGet {
+  height: 120px;
+  width: 1081px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.youCanGetStartedInNoTimeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-6xl) var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-amethysta);
+}
+.frameInner {
+  height: 109px;
+  width: 356px;
+  mix-blend-mode: hard-light;
+  max-width: 100%;
+}
+.home,
+.homeInner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.homeInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 293px;
+  max-width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(
+      180deg,
+      rgba(147, 202, 121, 0.01),
+      rgba(236, 223, 223, 0.04)
+    ),
+    #214910;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-43xl) 0 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 40px;
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1025px) {
+  .nexus {
+    font-size: var(--font-size-13xl);
+  }
+  .defiInsuranceCorp {
+    font-size: var(--font-size-19xl);
+  }
+  .nexusIsThe,
+  .nexusIsThe1,
+  .youCanChoose,
+  .youCanGet {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .blockchainIntegratedInsurancWrapper {
+    padding-bottom: 358px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nexus {
+    font-size: var(--font-size-5xl);
+  }
+  .defiInsuranceCorp {
+    font-size: var(--font-size-10xl);
+  }
+  .blockchainIntegratedInsurancContainer,
+  .nexusIsThe,
+  .nexusIsThe1,
+  .youCanChoose,
+  .youCanGet {
+    font-size: var(--font-size-lgi);
+  }
+  .homeInner {
+    padding-bottom: 190px;
+    box-sizing: border-box;
+  }
+}

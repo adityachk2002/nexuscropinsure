@@ -1,0 +1,123 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-41xl);
+  width: 159px;
+  height: 52px;
+  cursor: pointer;
+  z-index: 1;
+}
+.signUp {
+  position: absolute;
+  top: 13px;
+  left: 40px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  width: 106.5px;
+  height: 51.9px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  height: 64.9px;
+  position: relative;
+}
+.signInButtonInner {
+  width: 159px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+}
+.mainNavBarChild {
+  height: 52px;
+  width: 159px;
+  position: relative;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  display: none;
+}
+.signIn {
+  height: 35.2px;
+  width: 116.1px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.mainNavBar,
+.mainNavBarWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.mainNavBar {
+  align-self: stretch;
+  border-radius: var(--br-41xl);
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: var(--padding-smi) 0 3.800000000000182px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.mainNavBarWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 14.899999999999975px 0 0;
+}
+.signInButtonChild {
+  height: 52px;
+  width: 159px;
+  z-index: 1;
+}
+.signInButton,
+.signUpButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.signInButton {
+  margin: 0;
+  width: 560px;
+  justify-content: flex-start;
+  gap: var(--gap-15xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.signUpButton {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xl) 291.10000000000036px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 750px) {
+  .signInButton {
+    gap: 34px 17px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signUpButton {
+    padding-bottom: var(--padding-170xl);
+    box-sizing: border-box;
+  }
+}

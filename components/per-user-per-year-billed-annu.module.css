@@ -1,0 +1,18 @@
+.perUserPer {
+  height: 75px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.perUserPerYearBilledAnnu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-copperplate-gothic-light);
+}

@@ -1,0 +1,297 @@
+.ne2RemovebgPreview2Icon {
+  height: 665px;
+  width: 666px;
+  position: absolute;
+  margin: 0 !important;
+  right: -297px;
+  bottom: -157px;
+  object-fit: cover;
+  z-index: 1;
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  display: none;
+}
+.frameChild {
+  height: 419px;
+  width: 1440px;
+  background-color: var(--color-gainsboro);
+  max-width: 100%;
+}
+.frameItem {
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.ne4Icon {
+  height: 142px;
+  width: 154px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.insuranceCorporation,
+.nexus {
+  margin: 0;
+}
+.nexusInsuranceCorporationContainer {
+  margin-bottom: -38px;
+  height: 120px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.nexusInsuranceCorporationWrapper {
+  align-self: stretch;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.allRightsReserved {
+  width: 323px;
+  height: 49px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.frameGroup,
+.frameWrapper,
+.ne4Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  min-width: 232px;
+}
+.frameWrapper,
+.ne4Parent {
+  flex-direction: row;
+}
+.ne4Parent {
+  flex: 1;
+  gap: var(--gap-base);
+}
+.frameWrapper {
+  width: 531px;
+  padding: 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.mutualFundInvestments,
+.whileAllEfforts {
+  margin: 0;
+}
+.mutualFundInvestmentsContainer {
+  align-self: stretch;
+  height: 217px;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.frameParent {
+  width: 547px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  min-width: 547px;
+  max-width: 100%;
+}
+.followUsOn {
+  width: 283px;
+  height: 70px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.vectorIcon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.vectorWrapper {
+  height: 57px;
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.vectorIcon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.vectorContainer {
+  height: 57px;
+  width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.vectorIcon2,
+.vectorIcon3 {
+  position: relative;
+  z-index: 1;
+}
+.vectorIcon2 {
+  height: 57px;
+  width: 59px;
+}
+.vectorIcon3 {
+  align-self: stretch;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorFrame {
+  height: 60px;
+  width: 77px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.vectorIcon4 {
+  height: 53px;
+  width: 70px;
+  position: relative;
+  z-index: 2;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -19px;
+}
+.followUsOnParent,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.followUsOnParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameContainer {
+  width: 418px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  min-width: 418px;
+  max-width: 100%;
+}
+.ne2RemovebgPreview2Parent,
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.rectangleParent {
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  align-items: flex-end;
+  padding: var(--padding-15xl) var(--padding-14xl) var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-74xl);
+}
+.ne2RemovebgPreview2Parent {
+  align-self: stretch;
+  align-items: flex-start;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--font-amethysta);
+}
+@media screen and (max-width: 1125px) {
+  .frameContainer,
+  .frameParent,
+  .ne4Parent {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+    gap: 93px 46px;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .followUsOn,
+  .nexusInsuranceCorporationContainer {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .ne4Icon {
+    flex: 1;
+  }
+  .ne4Parent {
+    flex-wrap: wrap;
+  }
+  .frameParent {
+    min-width: 100%;
+  }
+  .frameDiv {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .rectangleParent {
+    gap: 93px 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .followUsOn,
+  .nexusInsuranceCorporationContainer {
+    font-size: var(--font-size-lgi);
+  }
+  .rectangleParent {
+    padding-top: var(--padding-3xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

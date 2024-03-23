@@ -1,0 +1,64 @@
+.ne2Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.ne2Wrapper,
+.signUp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.ne2Wrapper {
+  height: 667px;
+  width: 500px;
+  flex-direction: column;
+  padding: 167px 0 0;
+  min-width: 500px;
+  max-width: 100%;
+}
+.signUp {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-darkolivegreen);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 77px 64px 67px;
+  gap: 107px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1300px) {
+  .ne2Icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .ne2Wrapper {
+    flex: 1;
+  }
+  .signUp {
+    flex-wrap: wrap;
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .ne2Wrapper {
+    padding-top: 109px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .signUp {
+    gap: 107px 53px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .signUp {
+    gap: 107px 27px;
+  }
+}
